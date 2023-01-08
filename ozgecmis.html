@@ -1,0 +1,124 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <title>Web Teknoloji Proje Ödevi</title>
+    <style>
+        body {
+            min-width: 700px;
+        }
+        ul.breadcrumb {
+            padding: 10px 16px;
+            list-style: none;
+            background-color: #eee;
+        }
+            ul.breadcrumb li {
+                display: inline;
+                font-size: 18px;
+            }
+                ul.breadcrumb li + li:before {
+                    padding: 8px;
+                    color: black;
+                    content: "/\00a0";
+                }
+                ul.breadcrumb li a {
+                    color: #0275d8;
+                    text-decoration: none;
+                }
+                    ul.breadcrumb li a:hover {
+                        color: #01447e;
+                        text-decoration: underline;
+                    }
+    </style>
+</head>
+<body>
+    <aside>
+        <div class="aside-cubuk fixed-top ">
+            <div>
+                <a href="https://www.instagram.com/meltemy_lmaz/"><img class="sosyal" src="images/instagram.png" alt=""></a>
+                <a href="https://www.instagram.com/meltemy_lmaz/"><img class="sosyal" src="images/twitter.png" alt=""></a>
+                <a href="https://www.instagram.com/meltemy_lmaz/"><img class="sosyal" src="images/facebook.png" alt=""></a>
+            </div>
+        </div>
+    </aside>
+    <header class="p-3 bg-dark text-white fixed-top">
+        <div class="container">
+            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                <h2 class="header-head">Meltem YILMAZ</h2>
+            </div>
+        </div>
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top nav-fix" aria-label="Eighth navbar example">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Hakkında</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07"
+                    aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarsExample07">
+                <a class="navbar-brand" href="ozgecmis.html">Özgeçmiş</a>
+                <a class="navbar-brand" href="ilgialanlarim.html">İlgi Alanlarım</a>
+                <a class="navbar-brand" href="iletisim.html">İletişim</a>
+            </div>
+        </div>
+    </nav>
+    <main class="main-cv" style="float: left;">
+        <div>
+            <ul class="breadcrumb">
+                <li><a href="index.html">Hakkında</a></li>
+                <li>İletişim</li>
+
+            </ul>
+        </div>
+        <div class="cv">
+            <header>
+                <h1 class="cv-baslik">Meltem YILMAZ</h1>
+
+            </header><br><br>
+            <main>
+                <h5 class="cv-altbaslik">KİŞİSEL BİLGİLER</h5>
+                <hr>
+                <ul class="cv-ul">
+                    <li>Doğum Yeri: İstanbul</li>
+                    <li>Doğum Tarihi: 11.12.2003</li>
+                </ul>
+                <ul style="margin:0 0 0 40%;">
+                    <li>Ehliyet: B sınıfı (umarım)</li>
+                    <li>Medeni Durumu: Bekar</li>
+                </ul><br><br><br><br><br><br>
+                <h5 class="cv-altbaslik">ÖĞRENİM DURUMU</h5><hr>
+                Fahreddin Kerim Gökay Anadolu Lisesi<br>
+                Sakarya Üniversitesi Bilişim Sistemleri Mühendisliği Bölümü Devam Ediyor<br><br><br><br>
+                <h5 class="cv-altbaslik">YABANCI DİL</h5><hr>
+                <ul>
+                    <li>İngilizce C1</li>
+                    <li>Almanca A1</li>
+                </ul><br><br><br>
+                <h5 class="cv-altbaslik">BİLİNEN PROGRAMLAMA DİLLERİ</h5><hr>
+                <ul>
+                    <li>C</li>
+                    <li>C++</li>
+                    <li>C#</li>
+                </ul>
+                <br><br><br><br><br><br>
+            </main>
+        </div>
+    </main>
+
+    <footer class="page-footer font-small blue fixed-bottom footer-style">
+        <div class="footer-text text-center py-3">
+            Meltem YILMAZ Web Teknoloji Performans Ödevi
+        </div>
+    </footer>
+</body>
+</html>
